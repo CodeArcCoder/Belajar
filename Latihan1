@@ -1,0 +1,184 @@
+# x = 10
+# y = 20
+
+# if x > y:
+#     print("x lebih besar dari y")
+# elif x == y:
+#     print("x sama dengan y")
+# else:
+#     print("x lebih kecil dari y")
+
+# nilai = 80
+# if nilai > 75:
+#     print("Lulus")
+# else:
+#     print("Tidak Lulus")
+
+# umur = 18
+# if umur >= 17:
+#     print("Sudah boleh punya KTP")
+# else:
+#     print("Belum cukup umur")
+
+# angka = int(input("Masukkan angka: "))
+
+# if angka % 2 == 0:
+#     print("Angka genap")
+# else:
+#     print("Angka ganjil")
+
+# nilai = int(input("Masukkan nilai Anda: "))
+
+# if nilai >= 75:
+#     print("Lulus")
+# else:
+#     print("Tidak Lulus")
+
+# x = 20
+# y = 20
+
+# if x > y:
+#     print("x lebih besar dari y")
+# elif x == y:
+#     print("x sama dengan y")
+# else:
+#     print("x lebih kecil dari y")
+
+# nilai = 65
+
+# if nilai >= 90:
+#     print("A")
+# elif nilai >= 80:
+#     print("B")
+# elif nilai >= 70:
+#     print("C")
+# elif nilai >= 60:
+#     print("D")
+# else:
+#     print("E")
+
+# angka = int(input("Masukkan nilai: "))
+
+# match angka:
+#     case 1:
+#         print("Satu")
+#     case 2:
+#         print("Dua")
+#     case 3:
+#         print("Tiga")
+#     case _:
+#         print("Tidak dikenal")
+
+# nilai = 74
+
+# if nilai >= 75:
+#     print("Lulus")
+# else:
+#     print("Tidak Lulus")
+#     print("Program selesai")
+
+# x = 10
+# y = 5
+
+# if x > y:
+#     print("x lebih besar dari y")
+# elif x < y:
+#     print("x lebih kecil dari y")
+# elif x == y:
+#     print("x sama dengan y")
+
+# menu = int(input("Pilih menu (1-3): "))
+
+# match menu:
+#     case 1:
+#         print("Nasi Goreng")
+#     case 2:
+#         print("Mie Ayam")
+#     case 3:
+#         print("Bakso")
+#     case _:
+#         print("Menu tidak tersedia")
+
+# nilai = int(input("Masukkan nilai ujian: "))
+# hadir = int(input("Masukkan jumlah kehadiran: "))
+
+# if nilai >= 90 and hadir == 16:
+#     print("Lulus dengan Pujian")
+# elif nilai >= 75 and hadir >= 12:
+#     print("Lulus")
+# elif nilai >= 75 and hadir < 12:
+#     print("Tidak Lulus karena kehadiran kurang")
+# elif nilai < 75 and hadir >= 12:
+#     print("Tidak Lulus karena nilai rendah")
+# else:
+#     print("Tidak Lulus karena nilai dan kehadiran kurang")
+
+# angka = int(input("Masukkan angka: "))
+
+# if angka % 2 == 0:
+#     if angka % 4 == 0:
+#         print("Angka genap dan kelipatan 4")
+#     else:
+#         print("Angka genap tapi bukan kelipatan 4")
+# else:
+#     print("Angka ganjil")
+
+# umur = int(input("Masukkan umur Anda: "))
+
+# if umur < 0:
+#     print("Umur tidak valid")
+# elif umur < 12:
+#     print("Anak-anak")
+# elif umur == 17:
+#     print("Remaja akhir")
+# elif umur < 18:
+#     print("Remaja")
+# elif umur < 60:
+#     print("Dewasa")
+# elif umur >= 100:
+#     print("Legenda hidup")
+# else:
+#     print("Lansia")
+
+# menu = int(input("Pilih menu (1-5): "))
+
+# match menu:
+#     case 1:
+#         print("Nasi Goreng")
+#     case 2:
+#         print("Mie Ayam")
+#     case 3:
+#         print("Bakso")
+#     case 4:
+#         print("Soto Ayam")
+#     case 5:
+#         print("Rawon")
+#     case _:
+#         print("Menu tidak tersedia")
+
+# kode = input("Masukkan kode rahasia: ")
+# nilai = int(input("Masukkan nilai Anda: "))
+
+# if kode == "EVAN2025":
+#     if nilai >= 90:
+#         print("Akses Diberikan: Level Premium")
+#     elif nilai >= 75:
+#         print("Akses Diberikan: Level Standar")
+#     elif nilai < 0:
+#         print("Nilai yang dimasukkan tidak valid")
+#     elif nilai > 100:
+#         print("Nilai yang dimasukkan tidak valid")
+#     else:
+#         print("Nilai tidak cukup untuk akses")
+# else:
+#     print("Kode salah. Akses ditolak!")
+
+nilai = 79
+
+if nilai > 90:
+    print("Nilai A")
+elif nilai >= 80 and nilai < 90:
+    print("Nilai B")
+else:
+    print("Nilai C")
+
